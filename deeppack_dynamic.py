@@ -115,7 +115,7 @@ else:
 
 #get all slice info
 #get all slice info
-file = open("slice data/610_12item.txt",'r')
+file = open("slice_data/610_12item.txt",'r')
 content = file.read()
 file.close
 slices = content.split('\n')
